@@ -17,7 +17,7 @@ package com.coding.problems;
 public class P1BinarySearch {
 
 
-        public  void creator(){
+        public static void creator(){
 
             int[] arr = new int[5];
             arr[0] = 1;
@@ -31,7 +31,7 @@ public class P1BinarySearch {
 
         }
         public static int binarySearch(int[] nums, int target) {
-            // TODO: Write - Your - Code
+
 
             for(int i=0;i<nums.length;i++){
                 if(nums[i]==target){
