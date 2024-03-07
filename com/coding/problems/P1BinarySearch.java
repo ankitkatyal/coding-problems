@@ -36,7 +36,7 @@ public class P1BinarySearch {
             arr[4] = 12;
             int result = binarySearch(arr, 9);
 
-            LOGGER.log(Level.INFO, "Result: %s" , result);
+            LOGGER.log(Level.INFO, ()-> String.format("Result: %s" , result));
         }
         public static int binarySearch(int[] nums, int target) {
 

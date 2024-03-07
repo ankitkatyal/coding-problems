@@ -18,6 +18,7 @@
 
 # Package Files #
 out/
+target/
 *.jar
 *.war
 *.nar
