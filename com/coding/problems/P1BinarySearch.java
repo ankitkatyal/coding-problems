@@ -1,6 +1,9 @@
 package com.coding.problems;
 
-    /*
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/*
 
     Binary Search
 
@@ -14,9 +17,15 @@ package com.coding.problems;
     or we discard half of the array.
 
     */
+
+
+
 public class P1BinarySearch {
 
+    private static final Logger LOGGER = Logger.getLogger(P1BinarySearch.class.getName());
+    private P1BinarySearch(){
 
+        }
         public static void creator(){
 
             int[] arr = new int[5];
@@ -27,8 +36,7 @@ public class P1BinarySearch {
             arr[4] = 12;
             int result = binarySearch(arr, 9);
 
-            System.out.println(result);
-
+            LOGGER.log(Level.INFO, "Result: %s" , result);
         }
         public static int binarySearch(int[] nums, int target) {
 
