@@ -17,6 +17,7 @@
 *.ipr
 
 # Package Files #
+out/
 *.jar
 *.war
 *.nar
