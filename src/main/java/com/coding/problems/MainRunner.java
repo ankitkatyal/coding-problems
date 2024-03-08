@@ -1,4 +1,6 @@
-import com.coding.problems.P1BinarySearch;
+package com.coding.problems;
+
+import com.coding.problems.solutions.P1BinarySearch;
 
 
 public class MainRunner {
