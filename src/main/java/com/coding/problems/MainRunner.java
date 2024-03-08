@@ -1,13 +1,13 @@
 package com.coding.problems;
 
-import com.coding.problems.solutions.P1BinarySearch;
+import com.coding.problems.solutions.*;
 
 
 public class MainRunner {
 
     public static void main(String[] args) {
 
-        P1BinarySearch.creator();
+        P2RotateArrayByN.creator();
 
     }
 }
