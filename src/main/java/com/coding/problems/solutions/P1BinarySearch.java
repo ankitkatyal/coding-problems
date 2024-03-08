@@ -28,13 +28,19 @@ public class P1BinarySearch {
         }
         public static void creator(){
 
-            int[] arr = new int[5];
+            int[] arr = new int[11];
             arr[0] = 1;
             arr[1] = 3;
             arr[2] = 9;
             arr[3] = 10;
             arr[4] = 12;
-            int result = binarySearch(arr, 9);
+            arr[5] = 14;
+            arr[6] = 18;
+            arr[7] = 19;
+            arr[8] = 35;
+            arr[9] = 66;
+            arr[10] = 99;
+            int result = binarySearch(arr, 66);
 
             LOGGER.log(Level.INFO, ()-> String.format("Result: %s" , result));
         }
